@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="SQLUtils.exe" version="1.0.0.1" publicKeyToken="b0c694e52ddf45b5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SQLUtils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SQLUtils.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.ConnectionInfo" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.RegSvrEnum" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Rmo" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.ServiceBrokerEnum" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Smo" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.SmoEnum" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.SqlEnum" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.WmiEnum" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.VBProgressDialog.dll" size="5120">
+      <assemblyIdentity name="Interop.VBProgressDialog" version="1.1.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3LfQw/OTSm3pjqu8tlEohBeUUJg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.SqlServer.BatchParser.dll" size="363376">
+      <assemblyIdentity name="Microsoft.SqlServer.BatchParser" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HVgpnGZeB0bYUjDnzG4JCcuvyqQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.SqlServer.Replication.dll" size="1626480">
+      <assemblyIdentity name="Microsoft.SqlServer.Replication" version="9.0.242.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hH1bocpyIwdaQoPkY3qNQBbPBjE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLUtils.exe" size="28672">
+      <assemblyIdentity name="SQLUtils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mXZhdjRVGZXCW2ep236VBYQvA54=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinProgressDialog.dll" size="9216">
+      <assemblyIdentity name="WinProgressDialog" version="1.0.1845.20729" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VfqpBDYlUL5ABoi/z8on+Q5G+cQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=REDMOND\shitals" issuerKeyHash="cf42ebdee85cf528fd12aee2ddac35b1a5754a5b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BvfN+TrsSOGeLiiJvHrACjRfLWs=</DigestValue></Reference></SignedInfo><SignatureValue>Fe7SVjkQviNLlYMRZxY7Zc5POb02I5NDNauv55WxMluNmgg5NWa+TvxjdPOxBMCKRifpjNS0haQ9pVouf1b9+ID+TiacCp9dI3fNqvWzgrjMRSlsEiavTLVrlM6g6R0aAzrZZ8itkK4xc0CBR/q2Ux/L9KTaz/Zrvj+TOgI/zI8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sgNfRdolR8e/U+lUnrwCwOnbf4uhLH1lXFTmxCg/OvvKE48ZqjMoBAgkP7f1t76L5sTRMoLFBjheoaG1R+ZsFqEexoDvzH5KBY89hN/0+u2dW2e+sOfNWY40AfTxqyucjLRCseFtwvVOR7sIKX3AIV2bofFQIamWtEQ1DIE08xc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6b2d5f340ac07abc89282e9ee148ec3af9cdf706" Description="" Url=""><as:assemblyIdentity name="SQLUtils.exe" version="1.0.0.1" publicKeyToken="b0c694e52ddf45b5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REDMOND\shitals</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TUe7DKU6yHa+aYBz5wWLHtVYH5E=</DigestValue></Reference></SignedInfo><SignatureValue>P7A5Pj/enkEmoXaM/sT+VIP+Jn78tW0ZG0PJwCRIZjrxRPwFF5uW5wmq1e0mik9+fDpqm8DooMUJLA8JkHflq4Hdm+wrVSRMi2RTJsrEI87nzXOrXcJT53x1Li4gToYx5Q5lsv/NZSpOjbf/3NwAgl5QoeDIhH9Rth5k8nqSeLQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sgNfRdolR8e/U+lUnrwCwOnbf4uhLH1lXFTmxCg/OvvKE48ZqjMoBAgkP7f1t76L5sTRMoLFBjheoaG1R+ZsFqEexoDvzH5KBY89hN/0+u2dW2e+sOfNWY40AfTxqyucjLRCseFtwvVOR7sIKX3AIV2bofFQIamWtEQ1DIE08xc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATqgAwIBAgIQi6PWPQLSZptCDu8o8nA+vTAJBgUrDgMCHQUAMCkxJzAlBgNVBAMeHgBSAEUARABNAE8ATgBEAFwAcwBoAGkAdABhAGwAczAeFw0wNjA2MTQwNjQ2MTlaFw0wNzA2MTQxMjQ2MTlaMCkxJzAlBgNVBAMeHgBSAEUARABNAE8ATgBEAFwAcwBoAGkAdABhAGwAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsgNfRdolR8e/U+lUnrwCwOnbf4uhLH1lXFTmxCg/OvvKE48ZqjMoBAgkP7f1t76L5sTRMoLFBjheoaG1R+ZsFqEexoDvzH5KBY89hN/0+u2dW2e+sOfNWY40AfTxqyucjLRCseFtwvVOR7sIKX3AIV2bofFQIamWtEQ1DIE08xcCAwEAATAJBgUrDgMCHQUAA4GBAFIeTDPUm4pw6FJs18IKuknLpGE/3WQHCBv6Gc4EDfFcZ1WoUg3oEcMvOQxA3jyW5mShkiYd19rbd6Ui6fGsdOuwAu4fYyYTrvXnHZ0cBKi7L9mW6hPa4cwMKjd3J4ZNO08jsJWIjv5SXcCCdC0rKzia0BKgok7WXAW+TnugVMmI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

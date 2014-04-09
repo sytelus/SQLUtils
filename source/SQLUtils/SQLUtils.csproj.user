@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\tkfiltoolbox\tools\SqlUtilsInsertScript\|ftp://ftp.ShitalShah.com/SQLUtils/|http://localhost/SQLUtils/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.ShitalShah.com/SQLUtils/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.ShitalShah.com/contact.aspx</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>4</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
